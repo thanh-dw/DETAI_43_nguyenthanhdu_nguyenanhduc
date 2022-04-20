@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./bootstrap-5.1.3-dist/js/bootstrap.js">
+  <link rel="stylesheet" href="./style_form.css">
+  <link rel="stylesheet" href="js/jquery-3.6.0.min.js">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.baotrongit.com/Money-Format-Plugin/money_format.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+  <script defer src="check.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+  crossorigin="anonymous" />
+ 
+  <title>Tui Xach</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><h1>Chờ Neo</h1><p>Túi xách nữ tốt nhất</p></a>
+        </div>
+        <div class="search-header">
+            <ul>
+                <li class="search-icon">
+                    <input type="search" placeholder="Tìm Kiếm">
+                    <label class="icon">
+                    <span class="bx bx-search"></span>
+                    </label>
+                 </li>
+            </ul>
+        </div>
+        <div class="header-user-actions">
+            <div class="w-100 p-3">
+                <div class="user">
+                    <button>
+                        <div class="icon"><i class='bx bx-cart-add'> Giỏ Hàng</i></div>
+                    </button>
+                    <button><a  href="dangky.html" target="blank" >Đăng ký</a></button>
+                    <button><a href="dangnhap.html" target="blank">Đăng nhập</a></button>
+                </div>
+        
+                    </div>
+                </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--navbar------------------------------------------------------>
+    <nav class="desktop-navigation-menu">
+
+        <div class="menu">
+  
+          <ul class="desktop-menu-category-list">
+            <li class="menu-category">
+                <a href="show-all.html" class="menu-title">Tất cả sản phẩm</a>   
+            <li class="menu-category">  
+              <a href="show-all-new.html" class="menu-title">Sản phẩm mới</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Thương Hiệu</a>
+              <ul class="dropdown-list">
+                
+                <li class="dropdown-item">
+                  <a href="show-all-gucci.html">Gucci</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="show-all-lv.html">Louis Vuitton</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="show-all-gucci.html">chanel</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="menu-category">
+              <a href="#" class="menu-title">Bộ Sưu tập</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="show-bst.html">Mùa Xuân</a>
+                </li>   
+                <li class="dropdown-item">
+                    <a href="show-bst.html">Thu đông</a>
+                  </li>  
+                  <li class="dropdown-item">
+                    <a href="show-bst.html">Mùa Hè</a>
+                  </li>  
+              </ul>
+            </li>
+  
+            <li class="menu-category">
+              <a href="#" class="menu-title">Loại Túi</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="#">Xách Tay</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#">Đeo Vai</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#">Đeo Chéo</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#">Du Lịch</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="menu-category">
+              <a href="see-all-sale.html" class="menu-title">Giảm giá</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Tin Tức</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--banner-->
+    <main>
+      <div class="section">
+        <div class="banner">
+              <div class="show-banner">
+                <div class="banner-right">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class= "active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="img/banner-r1.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="img/banner-r2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="img/banner-r3.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="img/banner-r4.jpg" alt="Third slide">
+                            </div>
+                          </div>
+                          <button>
+                                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  </a>
+                          </button>
+                          <button>
+                                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  </a>
+                          </button>
+                    </div>
+        
+        
+            </div>
+            <div class="banner-left">
+              <img src="img/banner-l1.jpg" alt="">
+              <img src="img/banner-l2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+        
+        <!--product------------------------------------------------>
+        <div class="product">
+              <div class="product-details">
+                  <div class="product-moi">
+                      <h3>SẢN PHẨM BÁN CHẠY</h3>
+                      <div class="list-card">
+                        <div class="card align-items-center text-center" >
+                          <a href="./product_lv.html">
+                            <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                            <div class="card-body ">
+                              <h5 class="card-title">Louis Vuitton </h5>
+                              <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                              <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                          </a>
+                          </div>
+                            <div class="card-add">
+                            <button>Thêm vào Giỏ</button>
+                          </div>
+                        </div>
+                        <div class="card align-items-center text-center" >
+                          <a href="./product_gucci.html">
+                            <img class="card-img-top" src="./img/product/gucci2.jpg" alt="Card image cap">
+                            <div class="card-body ">
+                              <h5 class="card-title">GUCCI</h5>
+                              <p class="card-title">Túi Gucci Marmont Half-Moon-Shaped GG Mini Bag Màu Đen</p>
+                              <p class="card-text "><h6><span class="money well">49000000</span> VND</h6></p>
+                          </a>
+                          </div>
+                            <div class="card-add">
+                            <button>Thêm vào Giỏ</button>
+                          </div>
+                        </div>
+                        <div class="card align-items-center text-center" >
+                          <a href="./product_gucci.html">
+                            <img class="card-img-top" src="./img/product/gucci1.jpg" alt="Card image cap">
+                            <div class="card-body ">
+                              <h5 class="card-title">GUCCI </h5>
+                              <p class="card-title">Túi Đeo Vai Kẹp Nách Gucci Ophidia GG Mini Bag Màu Nâu Be</p>
+                              <p class="card-text "><h6><span class="money well">22500000</span> VND</h6></p>
+                          </a>
+                          </div>
+                            <div class="card-add">
+                            <button>Thêm vào Giỏ</button>
+                          </div>
+                        </div>
+                        <div class="card align-items-center text-center" >
+                          <a href="product_lv.html">
+                            <img class="card-img-top" src="./img/product/lv2.jpg" alt="Card image cap">
+                            <div class="card-body ">
+                              <h5 class="card-title">Louis Vuitton </h5>
+                              <p class="card-title">Túi Xách Louis Vuitton Loop M81098 Màu Nâu</p>
+                              <p class="card-text "><h6><span class="money well">59000000</span> VND</h6></p>
+                          </a>
+                          </div>
+                            <div class="card-add">
+                            <button>Thêm vào Giỏ</button>
+                          </div>
+                        </div>
+                        <div class="card align-items-center text-center" >
+                          <a href="product_lv.html">
+                            <img class="card-img-top" src="./img/product/lv3.jpg" alt="Card image cap">
+                            <div class="card-body ">
+                              <h5 class="card-title">Louis Vuitton </h5>
+                              <p class="card-title">Túi Đeo Vai Louis Vuitton Pochette Accessoires N41207</p>
+                              <p class="card-text "><h6><span class="money well">32000000</span> VND</h6></p>
+                          </a>
+                          </div>
+                            <div class="card-add">
+                            <button>Thêm vào Giỏ</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="show-seeall"><a class="seeall" href="show-all-new.html"> <span> Xem Thêm</span></a></div>
+                  </div>
+                  <!--banner 2 ------------------>
+                  <div class="banner-2">
+                    <div class="show-banner-2">
+                      <img src="img/banner-a.png" alt="">
+                      <img src="img/banner-b.png" alt="">
+                      <img src="img/banner-c.png" alt="">
+                    </div>
+                  </div>
+                  <!---product ban chay--------------->
+                  <div class="product-moi">
+                    <h3>SẢN PHẨM MỚI</h3>
+                    <div class="list-card">
+                      <div class="card align-items-center text-center" >
+                        <a href="./product_lv.html">
+                          <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                          <div class="card-body ">
+                            <h5 class="card-title">Louis Vuitton </h5>
+                            <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                            <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                        </a>
+                        </div>
+                          <div class="card-add">
+                          <button>Thêm vào Giỏ</button>
+                        </div>
+                      </div>
+                      <div class="card align-items-center text-center" >
+                        <a href="./product_gucci.html">
+                          <img class="card-img-top" src="./img/product/gucci2.jpg" alt="Card image cap">
+                          <div class="card-body ">
+                            <h5 class="card-title">GUCCI</h5>
+                            <p class="card-title">Túi Gucci Marmont Half-Moon-Shaped GG Mini Bag Màu Đen</p>
+                            <p class="card-text "><h6><span class="money well">49000000</span> VND</h6></p>
+                        </a>
+                        </div>
+                          <div class="card-add">
+                          <button>Thêm vào Giỏ</button>
+                        </div>
+                      </div>
+                      <div class="card align-items-center text-center" >
+                        <a href="./product_gucci.html">
+                          <img class="card-img-top" src="./img/product/gucci1.jpg" alt="Card image cap">
+                          <div class="card-body ">
+                            <h5 class="card-title">GUCCI </h5>
+                            <p class="card-title">Túi Đeo Vai Kẹp Nách Gucci Ophidia GG Mini Bag Màu Nâu Be</p>
+                            <p class="card-text "><h6><span class="money well">22500000</span> VND</h6></p>
+                        </a>
+                        </div>
+                          <div class="card-add">
+                          <button>Thêm vào Giỏ</button>
+                        </div>
+                      </div>
+                      <div class="card align-items-center text-center" >
+                        <a href="product_lv.html">
+                          <img class="card-img-top" src="./img/product/lv2.jpg" alt="Card image cap">
+                          <div class="card-body ">
+                            <h5 class="card-title">Louis Vuitton </h5>
+                            <p class="card-title">Túi Xách Louis Vuitton Loop M81098 Màu Nâu</p>
+                            <p class="card-text "><h6><span class="money well">59000000</span> VND</h6></p>
+                        </a>
+                        </div>
+                          <div class="card-add">
+                          <button>Thêm vào Giỏ</button>
+                        </div>
+                      </div>
+                      <div class="card align-items-center text-center" >
+                        <a href="product_lv.html">
+                          <img class="card-img-top" src="./img/product/lv3.jpg" alt="Card image cap">
+                          <div class="card-body ">
+                            <h5 class="card-title">Louis Vuitton </h5>
+                            <p class="card-title">Túi Đeo Vai Louis Vuitton Pochette Accessoires N41207</p>
+                            <p class="card-text "><h6><span class="money well">32000000</span> VND</h6></p>
+                        </a>
+                        </div>
+                          <div class="card-add">
+                          <button>Thêm vào Giỏ</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="show-seeall"><a class="seeall" href="show-all-new.html"> <span> Xem Thêm</span></a></div>
+                </div>
+                     <!---brand------------------------------------>
+                  <div class="brand">
+                    <h3>THƯƠNG HIỆU NỖI BẬT</h3>
+                    <div class="logo">
+                      <div class="list-logo">
+                        <a href="show-all-gucci.html"><img src="./img/product/logo-chanel.png" alt=""></a>
+                        <a href="show-all-gucci.html"><img src="./img/product/logo-gucci.jpg" alt=""></a>
+                        <a href="show-all-lv.html"><img src="./img/product/logo-lv.jpg" alt=""></a>
+                        <a href="show-all-lv.html"><img src="./img/product/logo-coatch.jpg" alt=""></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--banner sale--------------------------->
+                    <div class="banner-product-sale">
+                        <div class="sale-right">
+                          <img src="img/sale2.jpg" alt="">
+                        </div>
+                        <div class="sale-left">
+                          <img src="img/sale3.jpg" alt="">
+                          <img src="img/sale4.png" alt="">
+                          <img src="img/sale5.png" alt="">
+                        </div>
+                    </div>
+                  
+                  <!--product-sale-------------------------------------------------------->
+                  <div class="product-sale">
+                    <img class="banner-sale" src="img/sale1.png" alt="">
+                    <div class="poster">
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <img src="./img/product/new3.jpg" alt="">
+                        </div>
+                        <div class="item">
+                          <img src="./img/product/new5.jpg" alt="">
+                        </div>
+                        <div class="item">
+                          <img src="./img/product/new6.jpg" alt="">
+                        </div>
+                        <div class="item">
+                          <img src="./img/product/new7.jpg" alt="">
+                        </div>
+                        <div class="item">
+                          <img src="./img/product/new8.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list-card">
+                      <div class="card align-items-center text-center" >
+                        <a href="./product_lv.html">
+                          <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                          <div class="card-body ">
+                            <h5 class="card-title">Louis Vuitton </h5>
+                            <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                            <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                        </a>
+                        </div>
+                          <div class="card-add">
+                          <button>Thêm vào Giỏ</button>
+                        </div>
+                      </div>
+                      <div class="card align-items-center text-center" >
+                        <a href="./product_gucci.html">
+                          <img class="card-img-top" src="./img/product/gucci2.jpg" alt="Card image cap">
+                          <div class="card-body ">
+                            <h5 class="card-title">GUCCI</h5>
+                            <p class="card-title">Túi Gucci Marmont Half-Moon-Shaped GG Mini Bag Màu Đen</p>
+                            <p class="card-text "><h6><span class="money well">49000000</span> VND</h6></p>
+                        </a>
+                        </div>
+                          <div class="card-add">
+                          <button>Thêm vào Giỏ</button>
+                        </div>
+                      </div>
+                      <div class="card align-items-center text-center" >
+                        <a href="./product_gucci.html">
+                          <img class="card-img-top" src="./img/product/gucci1.jpg" alt="Card image cap">
+                          <div class="card-body ">
+                            <h5 class="card-title">GUCCI </h5>
+                            <p class="card-title">Túi Đeo Vai Kẹp Nách Gucci Ophidia GG Mini Bag Màu Nâu Be</p>
+                            <p class="card-text "><h6><span class="money well">22500000</span> VND</h6></p>
+                        </a>
+                        </div>
+                          <div class="card-add">
+                          <button>Thêm vào Giỏ</button>
+                        </div>
+                      </div>
+                      <div class="card align-items-center text-center" >
+                        <a href="product_lv.html">
+                          <img class="card-img-top" src="./img/product/lv2.jpg" alt="Card image cap">
+                          <div class="card-body ">
+                            <h5 class="card-title">Louis Vuitton </h5>
+                            <p class="card-title">Túi Xách Louis Vuitton Loop M81098 Màu Nâu</p>
+                            <p class="card-text "><h6><span class="money well">59000000</span> VND</h6></p>
+                        </a>
+                        </div>
+                          <div class="card-add">
+                          <button>Thêm vào Giỏ</button>
+                        </div>
+                      </div>
+                      <div class="card align-items-center text-center" >
+                        <a href="product_lv.html">
+                          <img class="card-img-top" src="./img/product/lv3.jpg" alt="Card image cap">
+                          <div class="card-body ">
+                            <h5 class="card-title">Louis Vuitton </h5>
+                            <p class="card-title">Túi Đeo Vai Louis Vuitton Pochette Accessoires N41207</p>
+                            <p class="card-text "><h6><span class="money well">32000000</span> VND</h6></p>
+                        </a>
+                        </div>
+                          <div class="card-add">
+                          <button>Thêm vào Giỏ</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="show-seeall"><a class="seeall" href="see-all-sale.html"> <span> Xem Thêm</span></a></div>
+                </div>
+                <!---trend------------------------------------>
+                <div class="trend">
+                  <h3>XU HƯỚNG</h3>
+                  <div class="list-card">
+                    <div class="card-trend align-items-center text-center" >
+                      <a href="./product_lv.html">
+                        <img class="card-img-top" src="./img/product/trend2.jpg" alt="Card image cap">
+                        <div class="card-body ">
+                          <h5 class="card-title">THU ĐÔNG </h5>
+                      </a>
+                        </div>
+                    </div>
+                    <div class="card-trend align-items-center text-center" >
+                      <a href="./product_gucci.html">
+                        <img class="card-img-top" src="./img/product/trendhe.jpg" alt="Card image cap">
+                        <div class="card-body ">
+                          <h5 class="card-title">MÙA HÈ </h5>
+                      </a>
+                        </div>
+                    </div>
+                    <div class="card-trend align-items-center text-center" >
+                      <a href="./product_lv.html">
+                        <img class="card-img-top" src="./img/product/xuantren.jpg" alt="Card image cap">
+                        <div class="card-body ">
+                          <h5 class="card-title">MÙA XUÂN</h5>
+                      </a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <!--recoment ---------------------------->
+              <div class="product-rec">
+                <h3>GỢI Ý CHO BẠN</h3>
+                <div class="list-card">
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv3.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Đeo Vai Louis Vuitton Pochette Accessoires N41207</p>
+                        <p class="card-text "><h6><span class="money well">32000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv3.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Đeo Vai Louis Vuitton Pochette Accessoires N41207</p>
+                        <p class="card-text "><h6><span class="money well">32000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_gucci.html">
+                      <img class="card-img-top" src="./img/product/gucci1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">GUCCI </h5>
+                        <p class="card-title">Túi Đeo Vai Kẹp Nách Gucci Ophidia GG Mini Bag Màu Nâu Be</p>
+                        <p class="card-text "><h6><span class="money well">22500000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_gucci.html">
+                      <img class="card-img-top" src="./img/product/gucci1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">GUCCI </h5>
+                        <p class="card-title">Túi Đeo Vai Kẹp Nách Gucci Ophidia GG Mini Bag Màu Nâu Be</p>
+                        <p class="card-text "><h6><span class="money well">22500000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                       
+            </div>
+        </div>
+      </div>
+    </div>
+    </main>
+
+        <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Địa chỉ
+              </h6>
+              <p>Địa Chỉ 1:</p>
+              <p>
+                12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam
+              </p>
+              <p>Địa Chỉ 2:</p>
+              <p>
+                12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Thông tin
+              </h6>
+              <p>Tuyển dụng</p>
+              <p>Góp Ý</p>
+              <p>Chính sách bảo hành</p>
+              <p>Đổi trả sản phẩm</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Kết nối với chúng tôi
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Facebook</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Instagram</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Twitter</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Youtube</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Liên hệ
+              </h6>
+                <i class="fas fa-envelope me-3"></i>
+                nguyenthdu6242@gmail.com
+              </p>
+              <p><i class="fas fa-print me-3"></i> fax: 00193213</p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="/">Nguyễn Thanh Dư - Nguyễn Anh Đức</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+        <!--script-->
+        <script type="text/javascript">
+        $('.money').simpleMoneyFormat();
+      </script>
+      
+        <!--Jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <!-- Owl Carousel -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <!-- custom JS code after importing jquery and owl -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".owl-carousel").owlCarousel();
+            });
+        
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            })
+        </script>
+    </body>

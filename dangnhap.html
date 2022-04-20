@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<title>Đăng Nhập</title>
+</head>
+
+<body><br>
+	<h1 class="text-center text-success">
+		Đăng Nhập
+	</h1>
+	<div class="container">
+	<div class="col-lg-8
+		m-auto d-block">
+		<form>
+
+		<div class="form-group">
+			<label for="user">
+					Nhập Email:
+			</label>
+			<input type="email" name="email"
+				id="email" required
+				class="form-control">
+			<small id="emailvalid" class="form-text
+				text-muted invalid-feedback">
+					Email không hợp lệ
+			</small>
+		</div>
+
+		<div class="form-group">
+			<label for="password">
+					Nhập mật khẩu:
+			</label>
+			<input type="password" name="pass"
+				id="password" class="form-control">
+			<h5 id="passcheck" style="color: red;">
+				Vui lòng nhập mật khẩu
+			</h5>
+		</div>
+
+		<input type="submit" id="submitbtn"
+			value="Đăng Nhập" class="btn btn-primary">
+		</form>
+	</div>
+	</div>
+
+	<!-- Including app.js jQuery Script -->
+	<script src="kt-dangnhap.js"></script>
+</body>
+</html>

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./bootstrap-5.1.3-dist/js/bootstrap.js">
+  <link rel="stylesheet" href="./style_form.css">
+
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.baotrongit.com/Money-Format-Plugin/money_format.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+  crossorigin="anonymous" />
+
+
+  <title>Tui Xach</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><h1>Chờ Neo</h1><p>Túi xách nữ tốt nhất</p></a>
+        </div>
+        <div class="search-header">
+            <ul>
+                <li class="search-icon">
+                    <input type="search" placeholder="Tìm Kiếm">
+                    <label class="icon">
+                    <span class="bx bx-search"></span>
+                    </label>
+                 </li>
+            </ul>
+        </div>
+        <div class="header-user-actions">
+            <div class="w-100 p-3">
+                <div class="user">
+                    <button>
+                        <div class="icon"><i class='bx bx-cart-add'> Giỏ Hàng</i></div>
+                    </button>
+                    <button><a  href="#" data-toggle="modal" data-target="#myModal">Đăng ký</a></button>
+                    <button><a href="#" data-toggle="modal" data-target="#myModal2">Đăng nhập</a></button>
+                </div>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header modal-css">
+                        <h2 class="modal-title">Đăng ký</h2>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body modal-css">
+                        <form action="">
+                            <div class="form-group">
+                            <label for="">Họ và tên:</label>
+                            <input type="" class="form-control" id="" placeholder="Họ và tên" name="">
+                            <label for="">Số điện thoại</label>
+                            <input type="" class="form-control" id="" placeholder="Số điện thoai" name="">
+                            <label for="">ngày sinh::</label>
+                            <input type="date" class="form-control datee">
+                            <label for="">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                name="email">
+                            </div>
+                            <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                name="pswd">
+                            </div>
+                            <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name=""> Đồng ý với các điều
+                                khoản</label>
+                            </div>
+                        </form>
+                        </div>
+                        <div class="modal-footer modal-css">
+                        <button type="button" class="btn btn-info m-auto" data-dismiss="modal">Đăng ký</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="modal" id="myModal2">
+                    <div class="modal-dialog">
+                    <div class="modal-content">               
+                        <div class="modal-header modal-css">
+                        <h2 class="modal-title">Đăng nhập</h2>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>                       
+                        <div class="modal-body modal-css">
+                        <form action="">
+                            <div class="form-group">
+        
+                            <label for="">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                name="email">
+                            </div>
+                            <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                name="pswd">
+        
+                        </form>
+        
+                        </div>
+        
+                        <div class="modal-footer modal-css">
+                        <button type="button" class="btn btn-info m-auto" data-dismiss="modal">Đăng nhập</button>
+                        </div>
+        
+                    </div>
+        
+                    </div>
+                </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--navbar------------------------------------------------------>
+    <nav class="desktop-navigation-menu">
+
+        <div class="menu">
+  
+          <ul class="desktop-menu-category-list">
+            <li class="menu-category">
+                <a href="show-all.html" class="menu-title">Tất cả sản phẩm</a>   
+            <li class="menu-category">  
+              <a href="show-all-new.html" class="menu-title">Sản phẩm mới</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Thương Hiệu</a>
+              <ul class="dropdown-list">
+                
+                <li class="dropdown-item">
+                  <a href="show-all-gucci.html">Gucci</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="show-all-lv.html">Louis Vuitton</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="show-all-gucci.html">chanel</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="menu-category">
+              <a href="#" class="menu-title">Bộ Sưu tập</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="show-bst.html">Mùa Xuân</a>
+                </li>   
+                <li class="dropdown-item">
+                    <a href="show-bst.html">Thu đông</a>
+                  </li>  
+                  <li class="dropdown-item">
+                    <a href="show-bst.html">Mùa Hè</a>
+                  </li>  
+              </ul>
+            </li>
+  
+            <li class="menu-category">
+              <a href="#" class="menu-title">Loại Túi</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="#">Xách Tay</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#">Đeo Vai</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#">Đeo Chéo</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#">Du Lịch</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="menu-category">
+              <a href="see-all-sale.html" class="menu-title">Giảm giá</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Tin Tức</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <div class="details-product">
+        <div class="url"><a href="index.html">Trang Chủ</a> > Túi Xách Gucci </div>
+        <div class="flex-box">
+        
+          <div class="left">
+        
+              <div class="big-img">
+                  <img src="img/product/gucci5-1.jpg">
+              </div>
+              <div class="images">
+                  <div class="small-img">
+                      <img src="img/product/gucci5-1.jpg" onclick="showImg(this.src)">
+                  </div>
+                  <div class="small-img">
+                      <img src="img/product/gucci5-2.jpg" onclick="showImg(this.src)">
+                  </div>
+                  <div class="small-img">
+                      <img src="img/product/gucci5-3.jpg" onclick="showImg(this.src)">
+                  </div>
+                  <div class="small-img">
+                      <img src="img/product/gucci5-4.jpg" onclick="showImg(this.src)">
+                  </div>
+              </div>
+          </div>
+          <div class="right">
+              <p>GUCCI</p>
+              <div class="pname">Túi Hộp Gucci Mini 1955 Horsebit Top Handle Bag Màu Nâu</div>
+              <div class="ratings">
+                  <i class="fas fa-star">Mã SP: h042392</i><br>
+                  <i class="fas fa-star">Xuất xứ: Ý</i><br>
+                  <i class="fas fa-star">Danh mục: Túi xách</i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price"><span class="money well">48000000</span> VND</div>
+              <div class="info">
+                    <i>Giới tính: Nữ</i><br>
+                    <i>Màu sắc: Nâu</i><br>
+                    <i>Chất liệu: Da cao cấp</i><br>
+                    <i>Ưu đãi: freeship toàn quốc</i>
+              </div>
+              <div class="quantity">
+                  <p>Số Lượng :</p>
+                  <input type="number"  value="1">
+              </div>
+              <div class="btn-box">
+                  <button class="cart-btn">Thêm Vào Giỏ</button>
+                  <button class="buy-btn">Mua Ngay</button>
+              </div>
+          </div>
+        </div>
+    </div>
+    <div class="product">
+        <div class="product-details">
+            <div class="product-rec">
+                <h3>CÓ THỂ BẠN THÍCH</h3>
+                <div class="list-card">
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv3.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Đeo Vai Louis Vuitton Pochette Accessoires N41207</p>
+                        <p class="card-text "><h6><span class="money well">32000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="./product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv1.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Xách Louis Vuitton Croisette Damier Ebene</p>
+                        <p class="card-text "><h6><span class="money well">48000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv3.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Đeo Vai Louis Vuitton Pochette Accessoires N41207</p>
+                        <p class="card-text "><h6><span class="money well">32000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                  <div class="card align-items-center text-center" >
+                    <a href="product_lv.html">
+                      <img class="card-img-top" src="./img/product/lv3.jpg" alt="Card image cap">
+                      <div class="card-body ">
+                        <h5 class="card-title">Louis Vuitton </h5>
+                        <p class="card-title">Túi Đeo Vai Louis Vuitton Pochette Accessoires N41207</p>
+                        <p class="card-text "><h6><span class="money well">32000000</span> VND</h6></p>
+                    </a>
+                    </div>
+                      <div class="card-add">
+                      <button>Thêm vào Giỏ</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="details-info">
+        <div class="details-form">
+            <span><b>Chi Tiết</b></span>
+            <p>Túi Hộp Gucci Mini 1955 Horsebit Top Handle Bag Màu Nâu là chiếc túi xách thời trang dành cho nữ đến từ thương hiệu Gucci nổi tiếng. Túi Gucci Mini 1955 Horsebit Top Handle Bag được làm từ chất liệu cao cấp bền đẹp trong suốt quá trình sử dụng.
+            </p>
+            <img src="./img/product/gucci-dd.jpg" alt="">
+            <h5>Đôi nét về thương hiệu Gucci</h5>
+            <p>Được sáng lập bởi Guccio Gucci (1881-1953) tại Florence (Ý), Gucci được xem là một trong những thương hiệu thời trang nổi tiếng và được yêu thích trên khắp thế giới. Bí quyết thành công của Gucci chính là nét hài hòa qua sự kết hợp của các sản phẩm. Bằng nghệ thuật xử lý da điêu luyện cùng tính đồng bộ trong sáng tạo sản phẩm, Gucci đã chinh phục được các khách hàng khó tính nhất. Danh tiếng lẫy lừng của “đế chế” này có thể ví như đã bao trùm làng thời trang quốc tế và ngày càng trở nên vững mạnh hơn. </p>
+            <img src="./img/product/gucci-d.jpg" alt="">
+            <h5>Mô tả Túi Gucci Mini 1955 Horsebit Top Handle Bag</h5>
+            <p>Túi Gucci Mini 1955 Horsebit Top Handle Bag là chiếc túi hình hộp được giới thiệu như một phần của bộ sưu tập phụ kiện Gucci Horsebit 1955 bằng vải canvas monogram, được thiết kế sang chảnh đúng với hình ảnh một món phụ kiện nhỏ xinh cho chị em</p>
+            <img src="./img/product/gucci-ddd.jpg" alt="">
+            <p>Hình dạng hình hộp đặc biệt, được hoàn thiện bằng dây đeo chuỗi có thể tháo rời. Phong cách được hoàn thiện với các chi tiết da trắng in họa tiết GG thương hiệu.</p>
+            <img src="./img/product/gucci-d.jpg" alt="">  
+        </div>
+    </div>
+    <!--cpomment ----------------->
+    <div class="comment">
+            <h3>Nhận Xét</h3>
+            <form action="/html/tags/html_form_tag_action.cfm" method="get">
+                Tên: <br>
+                <input type="text" name="name" value="" maxlength="100" />
+                <br />
+                Comments: <br>
+                <textarea name="comments" id="comments" rows="5" cols="100"></textarea><br>
+                <input type="submit" value="Submit" />
+                </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Địa chỉ
+            </h6>
+            <p>Địa Chỉ 1:</p>
+            <p>
+                12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam
+            </p>
+            <p>Địa Chỉ 2:</p>
+            <p>
+                12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam
+            </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                Thông tin
+            </h6>
+            <p>Tuyển dụng</p>
+            <p>Góp Ý</p>
+            <p>Chính sách bảo hành</p>
+            <p>Đổi trả sản phẩm</p>
+
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+                Kết nối với chúng tôi
+            </h6>
+            <p>
+                <a href="#!" class="text-reset">Facebook</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Instagram</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Twitter</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Youtube</a>
+            </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                Liên hệ
+            </h6>
+                <i class="fas fa-envelope me-3"></i>
+                nguyenthdu6242@gmail.com
+            </p>
+            <p><i class="fas fa-print me-3"></i> fax: 00193213</p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="/">Nguyễn Thanh Dư - Nguyễn Anh Đức</a>
+    </div>
+    <!-- Copyright -->
+    </footer>
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+    <script type="text/javascript">
+    $('.money').simpleMoneyFormat();
+    </script>
+  
+  </body>
+</html>
